@@ -1,7 +1,6 @@
-#服务端口
+
 server:
   port: 8091
-#服务名称
 spring:
   application:
     name: configServer
@@ -9,12 +8,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/15369952760/springCloudServer #服务git
-          search-paths: /** #配置文件所在的目录
-      label: master #配置文件所在的分支
+          uri: https://github.com/15369952760/springCloudServer
+          search-paths: /**
+      label: master
       username: 15369952760
-      password: ainiwuhui555
-#服务注册中心
+      password: #瀵嗙爜
 eureka:
   client:
     service-url:
